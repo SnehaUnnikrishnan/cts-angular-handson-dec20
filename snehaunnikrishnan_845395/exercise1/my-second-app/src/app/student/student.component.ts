@@ -8,9 +8,9 @@ import { Student } from './student';
   styleUrls: ['./student.component.css']
 })
 export class StudentComponent{
-  student1 : Student = new Student(1, "Shiny", 90);
-  student2 : Student = new Student(2, "Tom", 30);
-  student3 : Student = new Student(3, "Jerry", 50);
+  student1 : Student = new Student(1, "Sneha", 90);
+  student2 : Student = new Student(2, "taniya", 30);
+  student3 : Student = new Student(3, "sradha", 50);
   
 }
 
