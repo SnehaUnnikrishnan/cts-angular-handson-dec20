@@ -1,0 +1,10 @@
+<div>
+   
+   
+    <h2>Number of likes : <span style="color: green;">{{likes}}</span></h2>
+    <h2>Number of dislikes : <span style="color: red;">{{dislikes}}</span></h2>
+    <app-child [username] = "name"
+    (LikeCounter) = "likes = $event" 
+    (DislikeCounter) = "dislikes = $event">
+    </app-child>
+    </div>
